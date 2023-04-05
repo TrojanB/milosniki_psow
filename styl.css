@@ -1,8 +1,7 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: Garamond;
+    font-family: Garamond, Serif;
 }
 
 #baner{
@@ -17,6 +16,7 @@
     color: #005005;
     width: 40%;
     height: 600px;
+    float: left;
 }
 
 #prawy{
@@ -24,6 +24,10 @@
     width: 60%;
     height: 600px;
     scrollbar-gutter: stable;
+    overflow: scroll;
+    float: left;
+    background-color: white;
+
 }
 
 footer{
@@ -43,8 +47,8 @@ form{
     padding-right: 50px;
 }
 
-input submit{
-    background:#97b498;
+input{
+    background-color: #97b498;
     color: white;
 }
 
